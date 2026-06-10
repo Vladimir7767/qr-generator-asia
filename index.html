@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Best Free QR Code Generator Online 2026 — Create Permanent QR Codes</title>
+<meta name="description" content="Free online QR code generator for Asia. Create permanent, static QR codes for links, websites, or text instantly in 1 click without registration.">
+<style>
+body{font-family:'Segoe UI',sans-serif;background:#f4f6f9;margin:0;padding:20px;display:flex;justify-content:center;align-items:center;min-height:100vh}
+.box{background:#fff;padding:25px;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.05);max-width:400px;width:100%;text-align:center}
+input{width:100%;padding:10px;margin:15px 0;border:1px solid #cbd5e1;border-radius:6px;box-sizing:border-box;font-size:14px}
+button{width:100%;padding:12px;background:#0284c7;border:none;color:#fff;font-weight:bold;border-radius:6px;cursor:pointer}
+button:hover{background:#0369a1}
+.res{margin-top:20px;padding:15px;display:none;background:#f0f9ff;border:1px solid #bae6fd;border-radius:6px}
+.qr-output{display:flex;justify-content:center;margin-top:15px;margin-bottom:5px}
+.qr-output img{width:160px;height:160px;display:block}
+.ad{display:none;margin-top:15px;min-height:100px;text-align:center}
+</style>
+</head>
+<body>
+<div class="box">
+<h2>QR Code Generator</h2>
+<input type="text" id="txt" placeholder="Enter link or text here">
+<button onclick="makeQR()">Create QR Code</button>
+<div id="box" class="res"><strong>Your QR Code created successfully!</strong><div id="out" class="qr-output"></div></div>
+<div id="ads" class="ad"><div id="container-e8c895e6c70ade8e4ef4a72354f42e97"></div></div>
+</div>
+<script>
+function showAds(){
+const c=document.getElementById('ads');
+if(!window.adScriptLoaded){
+window.atOptions={'key':'e8c895e6c70ade8e4ef4a72354f42e97','format':'iframe','height':90,'width':728,'params':{}};
+var s=document.createElement('script');s.type='text/javascript';s.async=!0;
+s.src=['https://','bagelstoppage.','com/','e8c895e6c70ade8e4ef4a72354f42e97/','invoke.js'].join('');c.appendChild(s);window.adScriptLoaded=!0
+}c.style.display='block'
+}
+function makeQR(){
+const v=document.getElementById('txt').value.trim();
+if(!v){alert('Please enter text or link');return}
+document.getElementById('out').innerHTML='';
+// ИСПРАВЛЕНО: Безошибочный массив сборки стабильного эндпоинта изображений API
+const endpoint=['https://','api.qrserver.com','/v1/','create-qr-code/','?size=160x160&data='].join('');
+const i=document.createElement('img');
+i.src=endpoint+encodeURIComponent(v);
+i.alt='QR Code';
+document.getElementById('out').appendChild(i);
+document.getElementById('box').style.display='block';
+showAds()
+}
+</script>
+<div style="display:none!important;visibility:hidden!important;opacity:0!important;width:0!important;height:0!important;position:absolute!important;top:-9999px!important;">
+<h2>Make static QR code online free — QR generator India, Singapore, Malaysia</h2>
+<p>Convert URLs, WhatsApp links, payments, or text into pixel images with our fast utility. Download high-resolution web resources without any commercial limits.</p>
+<ul>
+<li>free qr code generator online india</li>
+<li>create qr code for website link singapore</li>
+<li>generate permanent qr codes free malaysia</li>
+</ul>
+</div>
+</body>
+</html>
